@@ -1,0 +1,114 @@
+
+@media screen and (max-width: 500px) {
+    
+    .logo
+    {font-size: 2.5rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-top: 22px;
+    margin-left: 22px;
+    animation: pulsacao 500ms infinite;}
+
+    .menu-icon
+    {display: block;
+    width: 35px;
+    height: 35px;
+    margin: 32px;}
+
+    .cabeçalho
+    {background-color: rgb(0, 15, 29, 0.95);
+    height: 100px;}
+
+    .container1
+    {height: 100vh;}
+
+    .lista-pc
+    {display: none;}
+
+    .contatos
+    {opacity: 0;}
+
+    .apresentacao
+    {width: 90%;}
+
+    .apresentacao-h1
+    {font-size: 3rem;
+    margin-left: 20px;}
+
+    .apresentacao-h2
+    {margin-left: 30px;
+    margin-top: 20px;
+    font-size: 1.6rem;}
+
+    .apresentacao-p
+    {font-size: 1.4rem;
+    margin-left: 20px;
+    text-indent: 0px;}
+
+    .apresentacao-button
+    {margin-left: 20px;}
+
+
+
+
+    .sobre
+    {flex-direction: column-reverse;
+    width: 100%;}
+
+    .foto-perfil
+    {width: 60%;
+    margin: 0 auto;}
+
+    .foto-perfil img
+    {width: 100%;
+    margin-left: 0px;
+    margin-top: 100px;}
+
+    .sobre-texto
+    {width: 90%;
+    margin: 0 auto;}
+
+    .sobre-texto h1
+    {font-size: 3rem;}
+
+    .sobre-texto p
+    {font-size: 1.4rem;}
+
+    .sobre-texto ul li
+    {margin-left: 30px;
+    font-size: 1.2rem;}
+
+
+
+    .container3
+    {height: 235vh;}
+
+    .cards
+    {width: 100%;
+    height: 600px;
+    margin-bottom: 0px;
+    flex-direction: column;
+    align-items: center;}
+
+    .card
+    {width: 90%;
+    margin: 5px;}
+
+
+    footer img
+    {width: 30px;
+    height: 30px;}
+
+
+}
+
+
+
+@media screen and (min-width: 400px) {
+
+    .container1
+    {height: 80vh;}
+
+}

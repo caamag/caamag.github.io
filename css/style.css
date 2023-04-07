@@ -1,0 +1,426 @@
+
+*
+{margin: 0px;
+padding: 0px;}
+
+html
+{font-size: 62.5%;
+font-family: 'Arimo', sans-serif;
+scroll-behavior: smooth;}
+
+body
+{background-color:  rgb(0, 27, 51);}
+
+.preload
+{width: 100%;
+height: 100vh;
+position: fixed;
+background-color: rgb(0, 27, 51);
+position: relative;
+transition: 250ms;}
+
+.animation
+{width: 100px;
+height: 100px;
+border-radius: 100%;
+border: solid 7px white;
+position: absolute;
+top: 0px;
+bottom: 0px;
+left: 0px;
+right: 0px;
+margin: auto;
+animation: pulsacao 500ms infinite;}
+
+@keyframes pulsacao {
+    0% 
+    {box-shadow: 0 0 0 0 gray;}
+
+    100%
+    {box-shadow: 0 0 0 15px rgba(188, 188, 188, 0.1);}
+}
+
+.animation div
+{position: absolute;
+font-family: 'Arimo', sans-serif;
+font-weight: bold;
+color: white;
+top: 0px;
+bottom: 0px;
+left: 0px;
+right: 0px;
+margin: auto;
+font-size: 5rem;
+text-align: center;
+margin-top: 22px;}
+
+.contatos
+{flex-direction: column;
+position: absolute;
+position: fixed;
+width: 1.5%;
+bottom: 0px;
+left: 150px;
+z-index: 2;}
+
+.contatos img
+{width: 100%;
+height: auto;
+margin-bottom: 30px;
+cursor: pointer;
+transition: all ease-in-out 50ms;}
+
+.contatos img:hover
+{scale: 1.1;}
+
+.linha
+{background-color: white;
+width: 2.5px;
+height: 100px;
+margin-left: 10px;}
+
+
+
+
+
+
+.logo
+{position: absolute;
+position: fixed;
+font-size: 3.5rem;
+color: white;
+margin-top: 20px;
+margin-left: 60px;
+border: solid 3px white;
+border-radius: 100%;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 12px;
+padding-bottom: 12px;
+animation: pulsacao 500ms infinite;
+z-index: 3;}
+
+.cabeçalho
+{width: 100%;
+height: 110px;
+z-index: 2;
+position: fixed;
+background-color: rgb(0, 15, 29, 0.5);}
+
+.menu-icon
+{width: 50px;
+height: 50px;
+position: absolute;
+display: none;
+right: 0;
+margin: 20px;
+transition: all ease-in-out 250ms;}
+
+#input-nav
+{display: none;}
+
+input[type = "checkbox"]:checked ~ nav
+{display: block;}
+
+nav
+{position: absolute;
+display: none;
+margin-top: 100px;
+width: 100%;
+background-color: rgb(255, 255, 255);
+transition: 250ms;
+position: fixed;}
+
+.lista-mobile
+{text-align: center;
+overflow: hidden;}
+
+.lista-mobile li 
+{font-size: 2rem;
+font-weight: bold;
+padding-top: 50px;
+padding-bottom: 50px;
+cursor: pointer;}
+
+.lista-mobile button
+{font-size: 2rem;
+background-color: transparent;
+padding: 10px;
+cursor: pointer;
+border: solid 2px black;
+border-radius: 10px;
+margin-top: -10px;}
+
+.lista-pc
+{display: flex;
+list-style: none;
+position: absolute;
+right: 100px;
+margin: 38px;}
+
+.lista-pc li
+{font-size: 2rem;
+color: white;
+margin-left: 50px;
+cursor: pointer;
+transition: all ease-in-out 300ms;}
+
+.lista-pc li:hover
+{color: rgb(142, 202, 255);
+scale: 1.05;}
+
+.lista-pc button
+{font-size: 2rem;
+background-color: transparent;
+padding: 10px;
+color: white;
+border: solid 2px white;
+border-radius: 10px;
+margin-top: -10px;
+transition: 400ms;}
+
+.lista-pc button:hover
+{background-color: rgb(32, 145, 245);
+border: solid 2px rgb(32, 145, 245);}
+
+a
+{text-decoration: none;
+color: black;}
+
+
+
+
+
+
+
+
+
+
+.container1
+{width: 100%;
+height: 100vh;
+margin: 0 auto;
+position: relative;}
+
+.apresentacao
+{position: absolute;
+width: 60%;
+height: 60%;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;}
+
+.apresentacao-h1
+{font-size: 6rem;
+color: white;
+margin-left: 50px;}
+
+.apresentacao-h2
+{font-size: 2rem;
+color: white;
+margin-left: 50px;
+margin-top: 100px;}
+
+.apresentacao-p
+{font-size: 2rem;
+color: rgb(155, 155, 155);
+margin-left: 50px;
+font-weight: bold;
+text-indent: 30px;}
+
+.item-animado
+{opacity: 1;}
+
+.apresentacao-button 
+{font-size: 2rem;
+margin-left: 50px;
+margin-top: 20px;
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 10px;
+background-color: transparent;
+color: white;
+border: solid 3px white;
+cursor: pointer;
+transition: all ease-in-out 250ms;
+opacity: 0;
+transition: 500ms;}
+
+.apresentacao-button:hover
+{scale: 1.05;
+background-color: rgb(32, 145, 245);
+border: solid 3px rgb(32, 145, 245);}
+
+.apresentacao span
+{color: rgb(32, 145, 245);}
+
+
+
+
+
+
+
+
+.container2
+{height: 80vh;
+width: 100%;
+position: relative;
+justify-content: center;}
+
+
+.sobre
+{position: absolute;
+display: flex;
+width: 50%;
+height: 60vh;
+top: 0px;
+bottom: 0px;
+right: 0px;
+left: 0px;
+margin: auto;}
+
+.sobre-texto
+{width: 60%;
+height: 100%;
+text-align: left;}
+
+.sobre-texto h1
+{color: white;
+font-size: 4rem;
+margin-top: 50px;
+transition: all ease-in-out 500ms;}
+
+.sobre-texto p
+{font-size: 1.6rem;
+color: rgb(155, 155, 155);
+text-indent: 20px;
+font-weight: bold;}
+
+.sobre-texto span
+{color: rgb(32, 145, 245);}
+
+.sobre-texto ul
+{font-size: 1.6rem;
+color: rgb(155, 155, 155);
+display: flex;
+margin-top: 40px;
+list-style: square;}
+
+.sobre-texto ul li
+{margin-left: 50px;
+transition: all ease-in-out 250ms;
+font-weight: bold;}
+
+.sobre-texto ul li:hover
+{color: rgb(32, 145, 245);}
+
+.foto-perfil
+{width: 40%;
+height: 100%;
+position: relative;}
+
+.foto-perfil img
+{width: 80%;
+height: auto;
+border-radius: 10px;
+margin-left: 20px;
+margin-top: 50px;
+transition: all ease-in-out 250ms;
+opacity: 0.7;
+z-index: 2;}
+
+.foto-perfil img:hover
+{scale: 1.012;
+opacity: 1;}
+
+
+
+
+
+
+
+
+
+.container3
+{width: 100%;
+height: 120vh;}
+
+.cards
+{width: 50%;
+height: 300px;
+margin: 0 auto;
+display: flex;
+margin-bottom: 30px;}
+
+.card
+{width: 50%;
+height: 100%;
+margin: 15px;
+background-color:  rgb(20, 20, 20);
+border-radius: 15px;
+transition: all ease-in-out 250ms;
+opacity: 0.6;}
+
+.card:hover
+{scale: 1.015;
+opacity: 1;}
+
+.card a
+{width: 100%;
+height: 100px;
+position: relative;}
+
+.card a img
+{position: absolute;
+width: 50px;
+height: auto;
+margin: 20px;
+transition: all ease-in-out 250ms;}
+
+.card a img:hover
+{scale: 1.08;}
+
+
+.card h1
+{color: white;
+font-size: 2rem;
+margin-top: 100px;
+margin-left: 25px;}
+
+.card p
+{color: white;
+font-size: 1.4rem;
+margin-left: 25px;
+width: 80%;
+text-indent: 10px;}
+
+
+
+
+footer
+{width: 100%;
+height: 300px;
+color: white;
+text-align: center;
+position: relative;}
+
+footer img
+{width: 50px;
+height: 50px;
+margin: 10px;
+transition: all ease-in-out 150ms;}
+
+footer img:hover
+{scale: 1.06;}
+
+footer h1
+{font-size: 2rem;
+padding-top: 100px;}
+
+footer p
+{font-size: 1.6rem;
+margin-top: 20px;}
