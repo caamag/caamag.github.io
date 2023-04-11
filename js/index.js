@@ -31,7 +31,7 @@ function getPreload () {
         container3.style.display = "block"; 
         footer.style.display = "block"; 
 
-    },0); 
+    },3500); 
 }
 
 getPreload(); 
