@@ -324,13 +324,13 @@ height: 100%;
 position: relative;}
 
 .foto-perfil img
-{width: 80%;
+{width: 70%;
 height: auto;
 border-radius: 10px;
 margin-left: 20px;
 margin-top: 50px;
 transition: all ease-in-out 250ms;
-opacity: 0.7;
+opacity: 0.5;
 z-index: 2;}
 
 .foto-perfil img:hover

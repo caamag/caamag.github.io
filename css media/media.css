@@ -64,7 +64,11 @@
     .foto-perfil img
     {width: 100%;
     margin-left: 0px;
-    margin-top: 100px;}
+    margin-top: 100px;
+    opacity: 1;}
+
+    .foto-perfil img:hover
+    {scale: 1;}
 
     .sobre-texto
     {width: 90%;
