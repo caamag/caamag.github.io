@@ -31,11 +31,35 @@ function getPreload () {
         container3.style.display = "block"; 
         footer.style.display = "block"; 
 
-    },3500); 
+    },0); 
 }
 
 getPreload(); 
 
+
+
+
+//menu lateral mobile
+const btnInicial = document.querySelector('.menu-icon'); 
+const btnX = document.querySelector('.menu-x'); 
+
+document.addEventListener('click', (e) => {
+
+    const element = e.target; 
+
+    if (element.classList.contains('menu-icon')) {
+        setTimeout(() => {
+            btnInicial.style.display = 'none'; 
+            btnX.style.display = 'block'; 
+        }, 300)
+    }else if (element.classList.contains('menu-x')) {
+        setTimeout(() => {
+            btnInicial.style.display = 'block'; 
+            btnX.style.display = 'none'; 
+        }, 300)
+    }
+
+})
 
 
 
