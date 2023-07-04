@@ -137,6 +137,12 @@ position: fixed;}
 .lista-mobile
 {text-align: center;}
 
+.lista-mobile img
+{width: 50px;
+height: auto;
+margin-left: 10px;
+margin-right: 10px;}
+
 .lista-mobile li 
 {font-size: 3rem;
 font-weight: bold;
@@ -340,8 +346,7 @@ z-index: 2;}
 
 .foto-perfil img:hover
 {scale: 1.012;
-box-shadow: 12px 12
-px 1px white;
+box-shadow: 12px 12px 1px white;
 opacity: 1;}
 
 
